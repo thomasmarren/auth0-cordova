@@ -8,7 +8,7 @@ var version = require('./version').raw;
 
 var generateProofKey = crypto.generateProofKey;
 var generateState = crypto.generateState;
-var closingDelayMs = 3000;
+var closingDelayMs = 6000;
 
 session.clean();
 
